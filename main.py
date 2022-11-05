@@ -3,10 +3,10 @@ class Grandpatent:
     age = 60
     power = 100
 class Parent(Grandpatent):
+    height = 170
     age = 40
 class Child(Parent):
-    height = 170
-    age = 14
+    age = 13
     def __init__(self):
         print(self.height)
         print(self.power)
